@@ -40,9 +40,6 @@ from random import randint
 temperature = [randint(0, 250) for i in range(1024)]
 print(temperature)
 print()
-# №6 Преобразование списка temperature в байты
-temperature1 = [bin(randint(0, 250)) for i in range(1024)]
-print(temperature1)
 
 
 
