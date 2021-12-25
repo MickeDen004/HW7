@@ -40,11 +40,7 @@ from random import randint
 temperature = [randint(0, 250) for i in range(1024)]
 print(temperature)
 print()
+
+#
 with open('Temperature.bin', 'wb') as f:  #ф ручка
     f.write(bytes(temperature))
-
-
-
-
-
-
